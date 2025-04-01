@@ -1,4 +1,4 @@
-vars/postBuildSuccess.groovy
+#vars/postBuildSuccess.groovy
 
 def call(Map config = [:] {
     archiveArtifacts 'target/*.jar'
